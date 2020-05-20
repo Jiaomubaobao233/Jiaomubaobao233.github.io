@@ -514,12 +514,12 @@ h6 {
 
 .posts {
   margin-bottom: 20px;
-  border-bottom: 1px solid #eee; }
+  border-bottom: 0px solid #eee; }
 
 .post {
-  padding: 40px 0; }
+  padding: 20px 0; }
   .post + .post {
-    border-top: 1px solid #eee; }
+    border-top: 0px solid #eee; }
   .post .post-excerpt img {
     padding-top: .5em; }
   .post .post-header .post-title {
@@ -729,7 +729,7 @@ h6 {
         border-bottom: 1px solid #4D89FB; }
   .post .post-footer {
     margin-top: 20px;
-    border-top: 1px solid #eee;
+    border-top: 0px solid #eee;
     font-family: "Open Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Jhenghei", sans-serif; }
     .post .post-footer .post-tags {
       padding: 15px 0; }
