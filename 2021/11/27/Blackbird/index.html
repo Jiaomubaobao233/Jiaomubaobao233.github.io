@@ -65,7 +65,7 @@
 <meta property="og:image" content="https://jiaomubaobao233.github.io/2021/11/27/Blackbird/Blackbird/Orthogonality%20Check.png">
 <meta property="og:image" content="https://jiaomubaobao233.github.io/2021/11/27/Blackbird/Orthogonality%20Check.png">
 <meta property="article:published_time" content="2021-11-28T04:11:45.000Z">
-<meta property="article:modified_time" content="2021-12-03T15:50:01.332Z">
+<meta property="article:modified_time" content="2021-12-03T16:58:01.144Z">
 <meta property="article:author" content="Andrew Zhi">
 <meta property="article:tag" content="设计">
 <meta property="article:tag" content="建筑学">
@@ -341,7 +341,7 @@
 <p>默认图案为The MET Breuer表皮。</p>
 <p>&nbsp;</p>
 <p><strong id="OrthogonalityCheck"><img src="/2021/11/27/Blackbird/Blackbird/Orthogonality%20Check.png" alt> Orthogonality Check 正交检测 <a href="#All">⚐</a></strong></p>
-<p>判断点线面是否是正交的（横平竖直的），以及标识过于接近的可能是bug的点。用于形体建模过程中的检测。由于犀牛本身的精度限制，判断精度设为0.0001。</p>
+<p>判断曲面和曲线是否是正交的（横平竖直的），以及标识过于接近的可能是bug的点。用于形体建模过程中的检测。由于犀牛本身的精度限制，判断精度设为0.0001。</p>
 <p><img src="/2021/11/27/Blackbird/Orthogonality%20Check.png" alt></p>
 <table>
 <thead>
@@ -407,6 +407,7 @@
 <td>过于接近的点。以红色标识。</td>
 </tr>
 </tbody></table>
+<p>注：实际判断曲线时，视每一段均为直线段（以各段首尾点相连结果判断）。</p>
 <p>&nbsp;</p>
 <h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><table>
 <thead>
