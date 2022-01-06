@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Andrew Zhi Stockpile</title>
+  <title>Yefan Zhi Stockpile</title>
   <icon>https://jiaomubaobao233.github.io/icon.png</icon>
   
   <link href="https://jiaomubaobao233.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://jiaomubaobao233.github.io/</id>
   
   <author>
-    <name>Andrew Zhi</name>
+    <name>Yefan Zhi</name>
     
   </author>
   
