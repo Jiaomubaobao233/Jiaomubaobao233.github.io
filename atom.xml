@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Yefan Zhi Stockpile</title>
   <icon>https://jiaomubaobao233.github.io/icon.png</icon>
-  
+  <subtitle>Home</subtitle>
   <link href="https://jiaomubaobao233.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiaomubaobao233.github.io/"/>
