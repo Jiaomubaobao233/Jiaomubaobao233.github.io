@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="description" content="《演算法图鉴》"/>
+
+
+
+
+  <meta name="keywords" content="读书笔记," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Yefan Zhi Stockpile" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/List%20Drop.png?v=1.1" />
+
+
+
+<link rel="canonical" href="https://Jiaomubaobao233.github.io/2022/01/07/Algorithms-Explained-and-Illustrated/"/>
+
+
+<meta name="description" content="安全性演算法笔记对称加密算法（共享密钥加密算法，Shared-Key Cryptosystem）发送和接收方使用同一个密钥解密和加密。 例如：凯撒密码（Caesar cipher），AES（Advanced Encryption Standard），DES（Data Encryption Standard）。 案例：英格玛（Enigma）。 非对称加密算法（公开密钥加密算法，Public-Key">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《演算法图鉴》">
+<meta property="og:url" content="https://jiaomubaobao233.github.io/2022/01/07/Algorithms-Explained-and-Illustrated/index.html">
+<meta property="og:site_name" content="Yefan Zhi Stockpile">
+<meta property="og:description" content="安全性演算法笔记对称加密算法（共享密钥加密算法，Shared-Key Cryptosystem）发送和接收方使用同一个密钥解密和加密。 例如：凯撒密码（Caesar cipher），AES（Advanced Encryption Standard），DES（Data Encryption Standard）。 案例：英格玛（Enigma）。 非对称加密算法（公开密钥加密算法，Public-Key">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-01-07T13:40:50.000Z">
+<meta property="article:modified_time" content="2022-01-08T03:17:07.592Z">
+<meta property="article:author" content="Yefan Zhi">
+<meta property="article:tag" content="读书笔记">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: false
+    },
+  };
+</script>
+
+
+
+
+  
+
+
+
+    <title> 《演算法图鉴》 - Yefan Zhi Stockpile </title>
+  <meta name="generator" content="Hexo 5.2.0"></head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/." class="logo">Yefan Zhi Stockpile</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/archives">
+                            
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/about">
+                            
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          《演算法图鉴》
+        
+      </h1>
+
+      <time class="post-time">
+          1月 07 2022
+          
+      </time>
+      
+    </header>
+
+
+
+    
+           <div class="post-excerpt post-content">
+            
+            
+
+            
+            <div class="post-content">
+            <h1 id="安全性演算法笔记"><a href="#安全性演算法笔记" class="headerlink" title="安全性演算法笔记"></a>安全性演算法笔记</h1><h2 id="对称加密算法（共享密钥加密算法，Shared-Key-Cryptosystem）"><a href="#对称加密算法（共享密钥加密算法，Shared-Key-Cryptosystem）" class="headerlink" title="对称加密算法（共享密钥加密算法，Shared-Key Cryptosystem）"></a>对称加密算法（共享密钥加密算法，Shared-Key Cryptosystem）</h2><p>发送和接收方使用同一个密钥解密和加密。</p>
+<p>例如：凯撒密码（Caesar cipher），AES（Advanced Encryption Standard），DES（Data Encryption Standard）。</p>
+<p>案例：英格玛（Enigma）。</p>
+<h2 id="非对称加密算法（公开密钥加密算法，Public-Key-Cryptosystem）"><a href="#非对称加密算法（公开密钥加密算法，Public-Key-Cryptosystem）" class="headerlink" title="非对称加密算法（公开密钥加密算法，Public-Key Cryptosystem）"></a>非对称加密算法（公开密钥加密算法，Public-Key Cryptosystem）</h2><p>接收方设计一对公钥和私钥，将公钥公开，发送方使用公钥加密，接收方使用私钥解密。</p>
+<p>例如：RSA，圆锥曲线密码（ECC,Elliptic-Curve Cryptosystem）。</p>
+<p>案例：紫操学姐。</p>
+<h2 id="混合加密系统（Hybrid-Cryptosystem）"><a href="#混合加密系统（Hybrid-Cryptosystem）" class="headerlink" title="混合加密系统（Hybrid Cryptosystem）"></a>混合加密系统（Hybrid Cryptosystem）</h2><p>接收方设计一对公钥和私钥（A），将A公钥公开。发送方设计另一个密钥（B），使用A公钥加密后将B密钥发送给接收方。接收方使用A私钥解密得到B密钥。</p>
+<p>此后发送和接收方使用同一个B密钥解密和加密。</p>
+<p>案例：SSL（Secure Sockets Layer），TLS（Transport Layer Security）。</p>
+<h2 id="迪菲-赫尔曼密钥交换（Diffie–Hellman-Key-Exchange）"><a href="#迪菲-赫尔曼密钥交换（Diffie–Hellman-Key-Exchange）" class="headerlink" title="迪菲-赫尔曼密钥交换（Diffie–Hellman Key Exchange）"></a>迪菲-赫尔曼密钥交换（Diffie–Hellman Key Exchange）</h2><p>A、B两方共享原始公钥P，分别设计私钥SA，SB。</p>
+<p>根据公钥P，分别合成新的公钥P-SA，P-SB并直接发送给对方。</p>
+<p>根据手上的私钥和新获得的公钥，A、B进一步合成密钥P-SB-SA，P-SA-SB。</p>
+<p>密钥合成的方法要求合成结果与顺序无关，因此密钥P-SB-SA和P-SA-SB是等价的，都称为P-SA-SB。</p>
+<p>现在双方可以用P-SA-SB为密钥实现非对称加密传输。而第三方根据公钥P，P-SA，P-SB无法合成密钥P-SA-SB。</p>
+<p>例如：基于离散对数问题（Discrete Logarithm Problem）设计的密钥合成方法：</p>
+<p>P为底数G和被除数Q（一个非常大的素数）。</p>
+<p>SA为指数A。SB为指数B。</p>
+<p>P-SA为G^A mod Q。P-SB为G^B mod Q。</p>
+<p>P-SA-SB为(G^A mod Q)^B mod Q。</p>
+<p>P-SB-SA为(G^B mod Q)^A mod Q。</p>
+<p>P-SB-SA和P-SA-SB是等价的，而第三方根据P，P-SA，P-SB无法合成P-SA-SB。</p>
+<h2 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/baidu_22254181/article/details/82594072">https://blog.csdn.net/baidu_22254181/article/details/82594072</a></p>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+
+
+		<div class="post-tags">
+		  
+			<a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a>
+		  
+		</div>
+		
+
+        
+        
+  <nav class="post-nav">
+    
+    
+      <a class="next" href="/2021/11/27/Blackbird/">
+        <span class="next-text nav-default">Blackbird|乌鸫 for Grasshopper 内测版文档</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+    <div style="text-align:center;">
+        <button class="btn" id="load-disqus" onclick="disqus.load();">加载 Disqus 评论</button>
+    </div>
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+        2014 -
+    
+    2022
+    <span class="footer-author">Yefan Zhi.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> and <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/frostfan/hexo-theme-polarbear">Polar Bear</a>.
+    </span>
+
+    <!-- 不蒜子统计 -->
+    
+    <span class="footer-author">
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span> total views.</span>
+    </span>
+    
+</span>
+
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+<script type="text/javascript">
+  var disqus_shortname = 'andrew-zhi-stockpile';
+  var disqus_identifier = '2022/01/07/Algorithms-Explained-and-Illustrated/';
+
+  var disqus_title = "《演算法图鉴》";
+
+
+  var disqus = {
+    load : function disqus(){
+        if(typeof DISQUS !== 'object') {
+          (function () {
+          var s = document.createElement('script'); s.async = true;
+          s.type = 'text/javascript';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+          }());
+          $('#load-disqus').remove(); ///加载后移除按钮
+        }
+    }
+  }
+
+  
+    var disqus_config = function () {
+        this.page.url = disqus_url;
+        this.page.identifier = disqus_identifier;
+        this.page.title = disqus_title;
+    };
+  
+
+</script>
+
+
+    
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>

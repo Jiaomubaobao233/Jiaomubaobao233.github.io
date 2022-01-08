@@ -6,7 +6,7 @@
   <link href="https://jiaomubaobao233.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiaomubaobao233.github.io/"/>
-  <updated>2021-12-30T02:50:57.736Z</updated>
+  <updated>2022-01-08T03:17:07.592Z</updated>
   <id>https://jiaomubaobao233.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《演算法图鉴》</title>
+    <link href="https://jiaomubaobao233.github.io/2022/01/07/Algorithms-Explained-and-Illustrated/"/>
+    <id>https://jiaomubaobao233.github.io/2022/01/07/Algorithms-Explained-and-Illustrated/</id>
+    <published>2022-01-07T13:40:50.000Z</published>
+    <updated>2022-01-08T03:17:07.592Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="安全性演算法笔记"><a href="#安全性演算法笔记" class="headerlink" title="安全性演算法笔记"></a>安全性演算法笔记</h1><h2 id="对称加密算法（共享密钥加密算法，Shared-Key-Cryptosystem）"><a href="#对称加密算法（共享密钥加密算法，Shared-Key-Cryptosystem）" class="headerlink" title="对称加密算法（共享密钥加密算法，Shared-Key Cryptosystem）"></a>对称加密算法（共享密钥加密算法，Shared-Key Cryptosystem）</h2><p>发送和接收方使用同一个密钥解密和加密。</p><p>例如：凯撒密码（Caesar cipher），AES（Advanced Encryption Standard），DES（Data Encryption Standard）。</p><p>案例：英格玛（Enigma）。</p><h2 id="非对称加密算法（公开密钥加密算法，Public-Key-Cryptosystem）"><a href="#非对称加密算法（公开密钥加密算法，Public-Key-Cryptosystem）" class="headerlink" title="非对称加密算法（公开密钥加密算法，Public-Key Cryptosystem）"></a>非对称加密算法（公开密钥加密算法，Public-Key Cryptosystem）</h2><p>接收方设计一对公钥和私钥，将公钥公开，发送方使用公钥加密，接收方使用私钥解密。</p><p>例如：RSA，圆锥曲线密码（ECC,Elliptic-Curve Cryptosystem）。</p><p>案例：紫操学姐。</p><h2 id="混合加密系统（Hybrid-Cryptosystem）"><a href="#混合加密系统（Hybrid-Cryptosystem）" class="headerlink" title="混合加密系统（Hybrid Cryptosystem）"></a>混合加密系统（Hybrid Cryptosystem）</h2><p>接收方设计一对公钥和私钥（A），将A公钥公开。发送方设计另一个密钥（B），使用A公钥加密后将B密钥发送给接收方。接收方使用A私钥解密得到B密钥。</p><p>此后发送和接收方使用同一个B密钥解密和加密。</p><p>案例：SSL（Secure Sockets Layer），TLS（Transport Layer Security）。</p><h2 id="迪菲-赫尔曼密钥交换（Diffie–Hellman-Key-Exchange）"><a href="#迪菲-赫尔曼密钥交换（Diffie–Hellman-Key-Exchange）" class="headerlink" title="迪菲-赫尔曼密钥交换（Diffie–Hellman Key Exchange）"></a>迪菲-赫尔曼密钥交换（Diffie–Hellman Key Exchange）</h2><p>A、B两方共享原始公钥P，分别设计私钥SA，SB。</p><p>根据公钥P，分别合成新的公钥P-SA，P-SB并直接发送给对方。</p><p>根据手上的私钥和新获得的公钥，A、B进一步合成密钥P-SB-SA，P-SA-SB。</p><p>密钥合成的方法要求合成结果与顺序无关，因此密钥P-SB-SA和P-SA-SB是等价的，都称为P-SA-SB。</p><p>现在双方可以用P-SA-SB为密钥实现非对称加密传输。而第三方根据公钥P，P-SA，P-SB无法合成密钥P-SA-SB。</p><p>例如：基于离散对数问题（Discrete Logarithm Problem）设计的密钥合成方法：</p><p>P为底数G和被除数Q（一个非常大的素数）。</p><p>SA为指数A。SB为指数B。</p><p>P-SA为G^A mod Q。P-SB为G^B mod Q。</p><p>P-SA-SB为(G^A mod Q)^B mod Q。</p><p>P-SB-SA为(G^B mod Q)^A mod Q。</p><p>P-SB-SA和P-SA-SB是等价的，而第三方根据P，P-SA，P-SB无法合成P-SA-SB。</p><h2 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h2><p><a href="https://blog.csdn.net/baidu_22254181/article/details/82594072">https://blog.csdn.net/baidu_22254181/article/details/82594072</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;安全性演算法笔记&quot;&gt;&lt;a href=&quot;#安全性演算法笔记&quot; class=&quot;headerlink&quot; title=&quot;安全性演算法笔记&quot;&gt;&lt;/a&gt;安全性演算法笔记&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="读书笔记" scheme="https://jiaomubaobao233.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Blackbird|乌鸫 for Grasshopper 内测版文档</title>
